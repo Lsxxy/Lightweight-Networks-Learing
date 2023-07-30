@@ -44,7 +44,7 @@
 
 
 
-<img src="https://pic4.zhimg.com/80/v2-2cdae9b3ad2f1d07e2c738331dac6d8b_720w.webp" alt="img" style="zoom:50%;" />
+<img src="./img/v2-2cdae9b3ad2f1d07e2c738331dac6d8b_720w.jpg" alt="img" style="zoom:50%;" />
 
 上边的图片是深度可分离卷积中逐点卷积的过程，这是一个将深度卷积生成出来的分散的结果进行结合的一个过程，在这个过程与标准卷积没有区别，只是使用卷积核大小为1*1的卷积核进行卷积。所以逐点卷积的计算量为：
 
