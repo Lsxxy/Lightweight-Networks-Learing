@@ -112,11 +112,11 @@
 
 ​	首先，我们比较了使用深度可分离卷积的MobileNet与使用全卷积构建的模型。在表4中，我们看到，与全卷积模型相比，使用深度可分离卷积在 ImageNet 上只减少了 1% 的精度，但在乘加运算和参数上节省了大量的成本
 
-![image-20230727105132314](C:\Users\12777\AppData\Roaming\Typora\typora-user-images\img-MobileNet\image-20230727105132314.png)
+![image-20230727105132314](./img/image-20230727105132314.png)
 
 ​	接下来，我们将使用带有α的更瘦的MobileNet与使用较少层数的MobileNet模型进行比较。为了使 MobileNet 更浅，我们移除了表 1 中5层特征大小为 14x14x512 的卷积 。表 5 显示，在类似的计算和参数数量下，使用了α的MobileNets 比浅层的MobileNet在准确率上要好3%。（这里边α选择0.75）
 
-![image-20230727105416552](C:\Users\12777\AppData\Roaming\Typora\typora-user-images\img-MobileNet\image-20230727105416552.png)
+![image-20230727105416552](./img/image-20230727105416552.png)
 
 **我的理解**：从这里的实验对比不难看出，使用了MobileNet之后准确率降低的很少，只有百分之1，但参数量和计算量都有着数倍的减小，这很符合轻量级模型的要求，在尽可能保存准确度的情况下减少参数。
 
