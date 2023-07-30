@@ -98,7 +98,7 @@
 
 ​		ρ在 (0,1] 范围内，通常是隐式设置的，输入分辨率会变为 224, 192, 160 或 128。当分辨率乘数等于 1 时，是基准MobileNet，小于 1 的是计算量减少的 MobileNets。分辨率乘数可以将计算成本减少大约 ρ的平方。下面展示一个应用α和ρ如何减少计算量的例子。
 
-<img src="C:\Users\12777\AppData\Roaming\Typora\typora-user-images\img-MobileNet\image-20230726103500273.png" alt="image-20230726103500273" style="zoom:80%;" />
+<img src="./img/image-20230726103500273.png" alt="image-20230726103500273" style="zoom:80%;" />
 
 **我的理解**：与α同理，ρ也是通过减少信息量来换取模型更小，速度更快的，只是ρ是减少了图像分辨率上的信息。
 
