@@ -1,2 +1,2 @@
 # Lightweight-Networks-Learing
-这是一个记录轻量级网络学习过程的仓库
+这是一个记录轻量级网络学习过程的仓库（现在也包括一些有关Transformer的模型和一些Foundation Model）
